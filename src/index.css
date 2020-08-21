@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav .brand-logo , .continput{
+  width: 20%;
+  margin-top: 15px;
+  position: relative;
+}
+
+  .brand-logo img {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+  }
+
+.continput{
+  float: right;
+}
+
+.container {
+  width: 80%;
+  margin-top: 15px;
+}
+
+.tabs{
+  display: flex;
+  justify-content: center;
+}
+
+.tabs .tab {
+  width: 16%;
+}
+.card-content, .card-action{
+  display: flex;
+  justify-content: center;
+}
+.card .card-image .card-title{
+  background-color: #000;
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px){
+  .brand-logo , .right{
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
